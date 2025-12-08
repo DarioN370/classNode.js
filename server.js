@@ -2,7 +2,7 @@ import { createServer } from 'node:http'
 
 const server = createServer((request, response) => { //request = obtem os dados da requisicao do user (ex: em um sistema de criar user, o request busca as informacoes do usuario - nome, email, senha, etc...), response = objeto pra devolver respostas pra quem ta chamando
     
-    response.write('Hello Léo!')
+    response.write('Hello World!')
     return response.end()
 })
 
